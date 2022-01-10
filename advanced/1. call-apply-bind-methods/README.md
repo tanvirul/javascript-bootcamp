@@ -61,7 +61,7 @@ function Person(fName, lName, age) {
 }
 
 function Student(fName, lName, age, roll, section) {
-  Person.call(this, fName, lName, age, roll, section);
+  Person.call(this, fName, lName, age);
   this._roll = roll;
   this._section = section;
 }
